@@ -189,7 +189,7 @@ declare namespace later {
          *
          * @param date: The date to check
          */
-        isValid(date: Date);
+        isValid(date: Date): boolean;
     }
 
     interface RecurrenceBuilder extends ScheduleData {
